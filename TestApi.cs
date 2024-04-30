@@ -21,7 +21,8 @@ namespace Techbuild.Function
             {
                 Name="Hanson",
                 Address="Toronto",
-                Age = 30
+                Age = 30,
+                Gender = "Male"
             };
             return new OkObjectResult(p);
         }
@@ -31,6 +32,7 @@ namespace Techbuild.Function
         public string Name { get; set;}
         public string Address { get; set;}
         public int Age { get; set;}
+        public string Gender {get;set;}
 
     }
 }
