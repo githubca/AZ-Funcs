@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AZ-Funcs", "AZ-Funcs.csproj", "{34F37931-5728-45AA-BBC7-F6C0C73364E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzFuncApp", "FunctionApp3\AzFuncApp.csproj", "{895AF679-451B-4B6F-92B3-C0C0FA269AF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34F37931-5728-45AA-BBC7-F6C0C73364E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34F37931-5728-45AA-BBC7-F6C0C73364E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34F37931-5728-45AA-BBC7-F6C0C73364E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34F37931-5728-45AA-BBC7-F6C0C73364E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895AF679-451B-4B6F-92B3-C0C0FA269AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895AF679-451B-4B6F-92B3-C0C0FA269AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895AF679-451B-4B6F-92B3-C0C0FA269AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895AF679-451B-4B6F-92B3-C0C0FA269AF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
