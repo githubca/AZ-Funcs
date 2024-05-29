@@ -17,19 +17,19 @@ namespace AzFuncApp
         }
 
         [Function("GetSettingInfo")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req,
+        public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req,
             [BlobInput("content/settings.json", Connection = "AzureWebJobsStorage")] string blobContent
             )
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
             _logger.LogInformation($"{blobContent}");
 
-            var response = req.CreateResponse(HttpStatusCode.OK);
-            response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
+            //var response = req.CreateResponse(HttpStatusCode.OK);
+            //response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString($"{blobContent}");
+            //response.WriteString($"{blobContent}");
 
-            return response;
+            return new OkObjectResult(blobContent);
         }
     }
 }
