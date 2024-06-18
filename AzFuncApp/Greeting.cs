@@ -18,9 +18,11 @@ namespace AzFuncApp
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
+            string name = req.Query["name"];
+            int age = int.Parse(req.Query["age"]);
             Person p = new Person()
             {
-                Name = "Hanson",
+                Name = name,
                 Address = "Toronto",
                 Age = 30,
                 Gender = "Male"
