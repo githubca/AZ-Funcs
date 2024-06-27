@@ -1,0 +1,20 @@
+﻿@AzFuncApp_HostAddress = http://localhost:7071
+GET {{AzFuncApp_HostAddress}}/api/httpExample
+
+###
+
+GET {{AzFuncApp_HostAddress}}/api/Greeting
+
+###
+
+GET {{AzFuncApp_HostAddress}}/api/GetSettingInfo
+
+###
+
+GET {{AzFuncApp_HostAddress}}/api/HelloOrchestration_HttpStart
+
+###
+
+GET {{AzFuncApp_HostAddress}}/api/Orchestrator_HttpStart
+
+###

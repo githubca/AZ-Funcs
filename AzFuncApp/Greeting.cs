@@ -24,7 +24,7 @@ namespace AzFuncApp
             {
                 Name = name,
                 Address = "Toronto",
-                Age = 30,
+                Age = age,
                 Gender = "Male"
             };
             return new OkObjectResult(p);
