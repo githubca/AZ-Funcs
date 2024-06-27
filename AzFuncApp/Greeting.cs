@@ -20,10 +20,11 @@ namespace AzFuncApp
             _logger.LogInformation("C# HTTP trigger function processed a request.");
             string name = req.Query["name"];
             int age = int.Parse(req.Query["age"]);
+            string address = req.Query["address"];
             Person p = new Person()
             {
                 Name = name,
-                Address = "Toronto",
+                Address = address,
                 Age = age,
                 Gender = "Male"
             };
