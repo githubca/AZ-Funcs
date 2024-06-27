@@ -39,4 +39,4 @@ jobs:
           app-name: 'tb-func-app'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F0FC55813F3F43828712907479AC904C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9834214425A74ABBA10FC23023690058 }}
